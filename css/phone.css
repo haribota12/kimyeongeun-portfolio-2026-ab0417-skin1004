@@ -1,0 +1,67 @@
+@media screen and (max-width: 767px){
+
+    .top{width: 100%; margin: auto; height: 900px; background: url(../img/slide01_phone.png) center/cover no-repeat; position: relative;}
+
+    header{position: relative;}
+    header h1{padding-top: 20px; width: 280px; z-index: 10;}
+
+    .header_menu_phone{display: block; width: 100%; height: 900px; background: rgba(110, 110, 110, 0.5); position: absolute; top: 0; padding-top: 90px; text-align: right; font-size: 20px; z-index: 9; display: none;}
+    .header_menu_phone a{display: inline-block; width: 200px; padding: 30px 40px; color: #000; text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.1);}
+    .header_menu_phone li a:hover{color: #fff;}
+
+    nav{display: none;}
+    .header_icon{display: none;}
+    .header_icon_phone{position: absolute; right: 35px; top: 15px; z-index: 10; display: block;}
+    .header_icon_phone button{border: none; background: none; font-size: 38px;}
+
+    .header_icon_phone_close{position: absolute; right: 35px; top: 15px; z-index: 10; display: none;}
+    .header_icon_phone_close button{border: none; background: none; font-size: 38px;}
+
+    .main{display: none;}
+
+    .first_banner{width: 100%; height: 250px; background: #fff; text-align: center;}
+    .first_banner h2{padding-top: 100px; font-size: 16px;}
+    .first_banner p{margin-top: 10px; font-size: 13px;}
+
+    .first_img{background: url(../img/Slide02.jpg) no-repeat center/cover; width: 100%; height: 100%; background-position: 50% 35%;}
+    .second_img{background: url(../img/Slide03.png) center/cover no-repeat; width: 100%; height: 100%; background-position: 50% 10%}
+
+    .products{width: 100%; margin: auto;}
+
+    .first_pro{display: inline-block; width: 100%; padding-bottom: 40px; padding-top: 40px;}
+    .first_pro_img{width: 300px; display: inline-block; padding-bottom: 20px;}
+    .first_pro h2{padding-bottom: 30px; font-size: 20px;}
+    .first_pro p{padding-bottom: 30px; font-size: 13px;}
+    .first_pro h3{padding-bottom: 30px; font-size: 15px; font-weight: 400;}
+    .first_pro h1 a{display: inline-block; padding: 10px 50px; border: 1px solid #000; border-radius: 50px; font-weight: 400; font-size: 16px;}
+    .first_pro h1 a:hover{background: rgba(0, 0, 0, 0.1);}
+
+    .second_pro_phone{display: inline-block; width: 100%; text-align: center; padding-bottom: 40px;}
+    .second_pro{display: none;}
+    .second_pro_img{width: 300px; display: inline-block; padding-bottom: 20px;}
+    .second_pro_phone h2{padding-bottom: 30px; font-size: 20px;}
+    .second_pro_phone p{padding-bottom: 30px; font-size: 13px;}
+    .second_pro_phone h3{padding-bottom: 30px; font-size: 15px; font-weight: 400;}
+    .second_pro_phone h1 a{display: inline-block; padding: 10px 50px; border: 1px solid #000; border-radius: 50px; font-weight: 400; font-size: 16px;}
+    .second_pro_phone h1 a:hover{background: rgba(0, 0, 0, 0.1);}
+
+    .third_pro{display: inline-block; width: 100%; padding-bottom: 80px; padding-top: 0;}
+    .third_pro_img{width: 300px; display: inline-block; padding-bottom: 20px;}
+    .third_pro h2{padding-bottom: 30px; font-size: 20px;}
+    .third_pro p{padding-bottom: 30px; font-size: 13px;}
+    .third_pro h3{padding-bottom: 30px; font-size: 15px; font-weight: 400;}
+    .third_pro h1 a{display: inline-block; padding: 10px 50px; border: 1px solid #000; border-radius: 50px; font-weight: 400; font-size: 16px;}
+    .third_pro h1 a:hover{background: rgba(0, 0, 0, 0.1);}
+
+    .second_banner{width: 100%; height: 250px; background: #fff; text-align: center;}
+    .second_banner h2{padding-top: 100px; font-size: 16px;}
+    .second_banner p{margin-top: 10px; font-size: 13px;}
+
+    .contents{width: 100%; height: auto; padding-bottom: 60px; text-align: center; display: inline-block;}
+    .contents>div{margin-right: auto; margin-left: auto;}
+
+    .con_first{margin-bottom: 40px;}
+    .con_second{margin-bottom: 40px;}
+
+    footer{font-size: 14px;}
+}
