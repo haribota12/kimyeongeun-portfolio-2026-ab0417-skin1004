@@ -11,10 +11,10 @@
 
     nav{display: none;}
     .header_icon{display: none;}
-    .header_icon_phone{position: absolute; right: 10px; top: 15px; z-index: 10; display: block; color: #000;}
+    .header_icon_phone{position: absolute; right: 15px; top: 15px; z-index: 10; display: block; color: #000;}
     .header_icon_phone button{border: none; background: none; font-size: 38px;}
 
-    .header_icon_phone_close{position: absolute; right: 10px; top: 15px; z-index: 10; display: none; color: #000;}
+    .header_icon_phone_close{position: absolute; right: 15px; top: 15px; z-index: 10; display: none; color: #000;}
     .header_icon_phone_close button{border: none; background: none; font-size: 38px;}
 
     .main{display: none;}
